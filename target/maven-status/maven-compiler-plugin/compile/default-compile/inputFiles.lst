@@ -1,1 +1,6 @@
 /workspaces/grafos/src/main/java/com/grafos/grafos/GrafosApplication.java
+/workspaces/grafos/src/main/java/com/grafos/grafos/config/Config.java
+/workspaces/grafos/src/main/java/com/grafos/grafos/controller/Arista.java
+/workspaces/grafos/src/main/java/com/grafos/grafos/controller/Juego.java
+/workspaces/grafos/src/main/java/com/grafos/grafos/controller/Nodo.java
+/workspaces/grafos/src/main/java/com/grafos/grafos/controller/Ping.java
