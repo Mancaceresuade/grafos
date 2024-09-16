@@ -6,19 +6,19 @@ package com.grafos.grafos.controller;
 public class Nodo {
     private int x;
     private int y;
-    private int numero;
+    private int id;
 
-    public Nodo(int x, int y, int numero) {
+    public Nodo(int x, int y, int id) {
         this.x = x;
         this.y = y;
-        this.numero = numero;
+        this.id = id;
     }
 
-    public int getNumero() {
-        return numero;
+    public int getId() {
+        return id;
     }
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public void setId(int id) {
+        this.id = id;
     }
     public int getX() {
         return x;
@@ -34,6 +34,6 @@ public class Nodo {
     }
     @Override
     public String toString() {
-        return Integer.toString(numero) + " " + Integer.toString(x) + " " + Integer.toString(y);
+        return Integer.toString(id) + " " + Integer.toString(x) + " " + Integer.toString(y);
     }    
 }
